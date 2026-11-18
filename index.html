@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사랑채재가방문요양센터 | 전문 요양보호사가 직접 찾아가는 맞춤 돌봄</title>
+<meta name="description" content="사랑채재가방문요양센터는 전문 요양보호사가 직접 찾아가 신체활동, 일상생활, 개인활동, 정서적 지원을 돕습니다. 무료상담 032-881-0133">
+<meta property="og:title" content="사랑채재가방문요양센터">
+<meta property="og:description" content="전문 요양보호사가 직접 찾아가는 맞춤 돌봄 서비스. 무료상담 032-881-0133">
+<meta property="og:type" content="website">
+<meta property="og:image" content="photo2.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231F3B2D'/%3E%3Cpath d='M12 30 32 14l20 16v22H12z' fill='%23EFE6D6'/%3E%3Crect x='27' y='36' width='10' height='16' fill='%238A6B3E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand:#EFE6D6;
+  --green:#1F3B2D;
+  --brown:#8A6B3E;
+  --line:rgba(31,59,45,.28);
+
+  --s-25:2px; --s-50:4px; --s-75:8px; --s-100:12px; --s-200:16px; --s-300:24px;
+  --s-400:32px; --s-500:40px; --s-600:48px; --s-700:64px; --s-800:80px; --s-900:96px;
+
+  --radius:2px;
+  --ease:cubic-bezier(0.22,1,0.36,1);
+  --serif:"Noto Serif KR","Nanum Myeongjo",serif;
+  --sans:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--sand);color:var(--green);
+  font-family:var(--sans);word-break:keep-all;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit}
+p,h1,h2,h3{margin:0}
+.wrap{width:100%;max-width:1200px;margin-inline:auto;padding-inline:var(--s-300)}
+
+/* Text styles */
+.heading-2{font-family:var(--serif);font-size:30px;line-height:36px;font-weight:600;text-wrap:balance}
+.heading-3{font-family:var(--serif);font-size:30px;line-height:36px;font-weight:600;text-wrap:balance}
+.heading-4{font-family:var(--serif);font-size:30px;line-height:36px;font-weight:600;text-wrap:balance}
+.heading-5{font-family:var(--serif);font-size:24px;line-height:32px;font-weight:600;text-wrap:balance}
+.title-3{font-size:16px;line-height:24px;font-weight:500}
+.body-3{font-size:16px;line-height:24px;font-weight:400;text-wrap:pretty}
+.body-6{font-size:14px;line-height:20px;font-weight:400;text-wrap:pretty}
+.button-md{font-size:16px;line-height:24px;font-weight:600}
+.caption-2{font-size:14px;line-height:20px;font-weight:400;text-wrap:pretty}
+.caption-3{font-size:12px;line-height:16px;font-weight:600;letter-spacing:.12em}
+.numeral{font-family:var(--serif);font-size:48px;line-height:48px;font-weight:600;color:var(--brown)}
+
+@media (min-width:768px){
+  .wrap{padding-inline:var(--s-500)}
+  .heading-2{font-size:48px;line-height:48px}
+  .heading-3{font-size:36px;line-height:40px}
+}
+@media (min-width:1024px){
+  .heading-3{font-size:48px;line-height:48px}
+}
+
+/* Skip link */
+.skip{position:absolute;left:var(--s-200);top:-80px;background:var(--green);color:var(--sand);padding:var(--s-75) var(--s-100);border-radius:var(--radius);z-index:10}
+.skip:focus{top:var(--s-200)}
+
+/* Header */
+.top{padding-block:var(--s-200)}
+.brand{font-family:var(--serif);font-weight:600;font-size:18px;line-height:28px}
+
+/* Button */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:var(--s-75) var(--s-100);min-height:44px;
+  background:var(--green);color:var(--sand);text-decoration:none;
+  border-radius:var(--radius);
+  transition:transform 300ms var(--ease),opacity 300ms var(--ease);
+}
+.btn:hover{transform:translateY(-2px);opacity:.92}
+.btn:active{transform:scale(.98)}
+a:focus-visible{outline:2px solid var(--brown);outline-offset:2px}
+.on-green a:focus-visible{outline-color:var(--sand)}
+
+/* Hero */
+.hero{padding-block:var(--s-400) var(--s-700)}
+.hero-grid{display:grid;gap:var(--s-500);align-items:center}
+.hero-copy{max-width:680px}
+.label{color:var(--brown);margin-bottom:var(--s-200)}
+.hero h1{margin-bottom:var(--s-300)}
+.hero .lead{max-width:680px;margin-bottom:var(--s-400)}
+.hero-photo{aspect-ratio:3/4;width:100%;max-height:640px;overflow:hidden;border-radius:var(--radius);background:var(--line)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+@media (min-width:900px){
+  .hero{padding-block:var(--s-600) var(--s-900)}
+  .hero-grid{grid-template-columns:1.15fr .85fr;gap:var(--s-700)}
+  .hero-photo{aspect-ratio:3/4;max-height:none}
+}
+
+/* Tagline */
+.tagline{background:var(--green);color:var(--sand);padding-block:var(--s-700)}
+.tagline .inner{max-width:680px;margin-inline:auto;text-align:center}
+.tagline .words{display:block}
+.w{opacity:.3;transition:opacity 500ms var(--ease);display:inline-block;white-space:pre}
+.w.on{opacity:1}
+.review-slot{margin-top:var(--s-500);opacity:.7}
+@media (min-width:768px){.tagline{padding-block:var(--s-900)}}
+
+/* Program */
+.program{padding-block:var(--s-700)}
+.program-head{margin-bottom:var(--s-500)}
+.cols{display:grid;border-top:1px solid var(--line)}
+.col{padding-block:var(--s-400);border-bottom:1px solid var(--line)}
+.col .numeral{margin-bottom:var(--s-200)}
+.col h3{margin-bottom:var(--s-100)}
+@media (min-width:768px){
+  .program{padding-block:var(--s-900)}
+  .cols{grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line)}
+  .col{border-bottom:0;padding:var(--s-500) var(--s-400)}
+  .col + .col{border-left:1px solid var(--line)}
+  .col:first-child{padding-left:0}
+  .col:last-child{padding-right:0}
+}
+
+/* Wide photo */
+.wide{padding-bottom:var(--s-700)}
+.wide-photo{aspect-ratio:4/3;overflow:hidden;border-radius:var(--radius);background:var(--line)}
+.wide-photo img{width:100%;height:100%;object-fit:cover}
+@media (min-width:768px){.wide-photo{aspect-ratio:21/9}.wide{padding-bottom:var(--s-900)}}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding-block:var(--s-500)}
+.foot{display:grid;gap:var(--s-200)}
+.foot .brand{font-size:18px}
+.ph{color:var(--brown)}
+@media (min-width:768px){.foot{grid-template-columns:1fr auto;align-items:end}}
+
+/* Scroll reveal */
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity 700ms var(--ease),transform 700ms var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+
+@media (prefers-reduced-motion:reduce){
+  .js .reveal{transform:none;transition:opacity 300ms var(--ease)}
+  .w{opacity:1;transition:none}
+  .btn{transition:opacity 300ms var(--ease)}
+  .btn:hover,.btn:active{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip button-md" href="#main">본문으로 건너뛰기</a>
+
+<header class="top">
+  <div class="wrap"><span class="brand">사랑채재가방문요양센터</span></div>
+</header>
+
+<main id="main">
+
+  <!-- 1. 히어로 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="label caption-3">HOME VISIT CARE</p>
+        <h1 class="heading-2">전문 요양보호사가<br>직접 찾아가는<br>맞춤 돌봄 서비스</h1>
+        <p class="lead body-3">신체활동 지원, 일상생활 지원, 개인활동 지원, 정서적 지원까지. 사랑채재가방문요양센터가 어르신이 계신 곳으로 찾아갑니다.</p>
+        <a class="btn button-md" href="tel:0328810133">무료상담 문의 032-881-0133</a>
+      </div>
+      <div class="hero-photo reveal">
+        <img src="photo1.jpg" alt="사랑채재가방문요양센터 대표 프로필 사진" width="900" height="1200">
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 딥그린 + 큰 문장 -->
+  <section class="tagline on-green" aria-labelledby="tagline-text">
+    <div class="wrap">
+      <div class="inner">
+        <h2 class="heading-3" id="tagline-text"><span class="words" data-words>어르신이 지내던 집에서 전문 요양보호사와 함께 일상을 이어갑니다.</span></h2>
+        <p class="review-slot caption-2 reveal">{{실제 후기 한 문장}}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 프로그램 소개 -->
+  <section class="program" aria-labelledby="program-title">
+    <div class="wrap">
+      <div class="program-head reveal">
+        <p class="label caption-3">PROCESS</p>
+        <h2 class="heading-4" id="program-title">상담부터 서비스 시작까지</h2>
+      </div>
+      <div class="cols reveal">
+        <article class="col">
+          <p class="numeral">1주</p>
+          <h3 class="heading-5">무료상담과 등급신청 지원</h3>
+          <p class="body-6">무료상담으로 시작하고, 장기요양 등급신청을 지원합니다.</p>
+        </article>
+        <article class="col">
+          <p class="numeral">2–3주</p>
+          <h3 class="heading-5">방문상담과 케어 계획</h3>
+          <p class="body-6">방문상담으로 상황을 확인하고 맞춤 케어 계획을 세웁니다.</p>
+        </article>
+        <article class="col">
+          <p class="numeral">4주</p>
+          <h3 class="heading-5">서비스 시작</h3>
+          <p class="body-6">계획에 맞춰 전문 요양보호사의 방문 돌봄이 시작됩니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 가로 사진 -->
+  <section class="wide">
+    <div class="wrap">
+      <div class="wide-photo reveal">
+        <img src="photo2.jpg" alt="사랑채재가방문요양센터 작업 공간" width="1600" height="686" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <p class="brand">사랑채재가방문요양센터</p>
+      <p class="caption-2">주소 <span class="ph">{{주소}}</span></p>
+      <p class="caption-2"><span class="ph">{{개인정보처리방침}}</span> · <span class="ph">{{이용약관}}</span></p>
+    </div>
+    <a class="btn button-md" href="tel:0328810133">무료상담 문의 032-881-0133</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  root.classList.add('js');
+
+  /* 섹션 등장: 한 번만 */
+  var reveals=[].slice.call(document.querySelectorAll('.reveal'));
+  if(reduce||!('IntersectionObserver' in window)){
+    reveals.forEach(function(el){el.classList.add('in')});
+  }else{
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}
+      });
+    },{threshold:.15});
+    reveals.forEach(function(el){io.observe(el)});
+  }
+
+  /* 큰 문장: 단어가 하나씩 진해짐 */
+  var box=document.querySelector('[data-words]');
+  if(!box)return;
+  var text=box.textContent.trim();
+  var parts=text.split(' ');
+  box.textContent='';
+  var spans=parts.map(function(word,i){
+    var s=document.createElement('span');
+    s.className='w';
+    s.textContent=word+(i<parts.length-1?' ':'');
+    box.appendChild(s);
+    return s;
+  });
+  if(reduce||!('IntersectionObserver' in window)){
+    spans.forEach(function(s){s.classList.add('on')});
+    return;
+  }
+  var seen=new Array(spans.length).fill(false);
+  var wio=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      var i=spans.indexOf(e.target);
+      var limit=e.rootBounds?e.rootBounds.bottom:window.innerHeight;
+      if(e.isIntersecting||e.boundingClientRect.top<limit){seen[i]=true;wio.unobserve(e.target)}
+    });
+    var n=0;
+    while(n<seen.length&&seen[n])n++;
+    /* 읽는 순서대로, 앞 단어가 켜진 뒤에만 다음 단어 */
+    spans.forEach(function(s,k){
+      if(k<n){setTimeout(function(){s.classList.add('on')},k*40)}
+    });
+  },{rootMargin:'0px 0px -40% 0px',threshold:0});
+  spans.forEach(function(s){wio.observe(s)});
+})();
+</script>
+</body>
+</html>
